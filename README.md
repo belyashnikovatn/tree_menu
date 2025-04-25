@@ -13,9 +13,12 @@
 - Всего 1 запрос к БД на отрисовку меню
 
 ## Установка
+Для запуска проекта выполните последовательно команды:
 
 ```bash
 git clone https://github.com/belyashnikovatn/tree_menu
+```
+```bash
 python -m venv venv
 source venv/bin/activate  # Windows: venv/Scripts/activate
 pip install -r requirements.txt
