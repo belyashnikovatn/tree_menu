@@ -1,0 +1,92 @@
+[
+  {
+    "model": "tree_items.menuitem",
+    "pk": 1,
+    "fields": {
+      "name": "Главная",
+      "named_url": "home",
+      "parent": null,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "tree_items.menuitem",
+    "pk": 2,
+    "fields": {
+      "name": "О нас",
+      "named_url": "about",
+      "parent": null,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "tree_items.menuitem",
+    "pk": 3,
+    "fields": {
+      "name": "Контакты",
+      "named_url": "contact",
+      "parent": null,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "tree_items.menuitem",
+    "pk": 4,
+    "fields": {
+      "name": "Наша команда",
+      "named_url": "team",
+      "parent": 2,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "tree_items.menuitem",
+    "pk": 5,
+    "fields": {
+      "name": "История",
+      "named_url": "history",
+      "parent": 2,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "tree_items.menuitem",
+    "pk": 6,
+    "fields": {
+      "name": "Партнеры",
+      "named_url": "partners",
+      "parent": 5,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "tree_items.menuitem",
+    "pk": 7,
+    "fields": {
+      "name": "Услуги",
+      "named_url": "mock",
+      "parent": null,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "tree_items.menuitem",
+    "pk": 8,
+    "fields": {
+      "name": "Web-разработка",
+      "named_url": "mock",
+      "parent": 7,
+      "menu_name": "main_menu"
+    }
+  },
+  {
+    "model": "tree_items.menuitem",
+    "pk": 9,
+    "fields": {
+      "name": "Мобильные приложения",
+      "named_url": "mock",
+      "parent": 7,
+      "menu_name": "main_menu"
+    }
+  }
+]
